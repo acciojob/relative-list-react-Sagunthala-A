@@ -7,7 +7,7 @@ const App = () => {
                {/* Do not remove the main div */}
       <ol key={relativeList}>
         {
-          realtiveList.map((val,ind)=>(
+          realtiveList.length>0 && realtiveList.map((val,ind)=>(
             <li key={`relativeListItem ${ind+1}`}>
               <p>{val}</p>
             </li>
