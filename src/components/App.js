@@ -8,11 +8,12 @@ const App = () => {
       <ol key={relativeList}>
         {
           realtiveList.length>0 && realtiveList.map((val,ind)=>(
-            <li key={`relativeListItem ${ind+1}`}>
-              <p>{val}</p>
+            <li key={ `relativeListItem ${ind+1}`}>
+              {val}
             </li>
           ))
         }
+        {/* c */}
       </ol>
     </div>
   )
