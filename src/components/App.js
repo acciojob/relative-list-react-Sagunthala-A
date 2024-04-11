@@ -5,10 +5,10 @@ const App = () => {
   return (
     <div id="main">
                {/* Do not remove the main div */}
-      <ol key="relativeList">
+      <ol key="relativeList" id="relativeList">
         {
           realtives.length>0 && realtives.map((val,ind)=>(
-            <li key={ `relativeListItem${ind+1}`}>
+            <li key={ `relativeListItem${ind+1}`} id={`relativeListItem${ind+1}`}>
               {val}
             </li>
           ))
